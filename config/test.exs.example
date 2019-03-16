@@ -1,0 +1,9 @@
+use Mix.Config
+
+config :the_matrix, TheMatrix.Repo,
+       username: "root",
+       password: "",
+       database: "matrix_teste",
+       hostname: "localhost",
+       port: 3306,
+       pool: Ecto.Adapters.SQL.Sandbox
